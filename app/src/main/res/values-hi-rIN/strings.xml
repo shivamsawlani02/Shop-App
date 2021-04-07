@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DS Dairy Shop</string>
+
+    <string name="few_more_steps">कुछ और कदम</string>
+    <string name="verification">सत्यापन</string>
+    <string name="entered_mobile_number">दिया गया मोबाइल नंबर</string>
+    <string name="enter_otp">कृपया ओ टी पी लिखें</string>
+    <string name="resend_the_code_again_in">ओ टी पी फिर से प्राप्त करने के लिए क्लिक करें।</string>
+    <string name="wrong_otp">ओटीपी गलत है</string>
+    <string name="enter_mobile_number">मोबाइल नंबर दर्ज करें</string>
+    <string name="welcome">WELCOME/स्वागत</string>
+    <string name="register">रजिस्टर</string>
+    <string name="enter_name">नाम</string>
+    <string name="enter_email_optional">ईमेल दर्ज करे</string>
+    <string name="proceed">जारी रखें</string>
+
+    <string name="enter_shop_number">दुकान नंबर दर्ज करे</string>ं
+    <string name="enter_shop_name">दुकान का नाम</string>
+    <string name="enter_area_road">क्षेत्र/मार्ग</string>
+    <string name="enter_city">शहर</string>
+    <string name="almost_there">लगभग हो गया.</string>
+    <string name="choose_language">Choose Language/भाषा चुनें</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="connect_with">ग्राहक या जोड़ने के लिए QR स्कैन करें अथवा मोबाइल नंबर का उपयोग करके कनेक्ट करें मोबाइल नंबर दर्ज करें</string>
+
+    <string name="home">घर</string>
+    <string name="route">सेलर्स</string>
+    <string name="sales">खरीद</string>
+
+    <string name="invaild_mobile_no">अवैध फोन नंबर!</string>
+    <string name="seller_already_connected">विक्रेता पहले से कनेक्ट है</string>
+    <string name="please_fill_all_the_details">कृपया सभी विवरण दर्ज करें!</string>
+    <string name="please_select_seller">कृपया विक्रेता चुनने</string>
+    <string name="milk_left">कुल दूध बचा</string>
+    <string name="Dairy_System">डेयरी प्रणाली</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="order_delivered">आदेश दिया गया</string>
+    <string name="updating_please_wait">अपडेट हो रहा है ... कृपया प्रतीक्षा करें</string>
+    <string name="no_added_milkman">कोई मिल्कमैन नहीं जोड़ा गया है</string>
+    <string name="milman_details">दूधवाला विवरण</string>
+
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="address">पता</string>
+    <string name="due_amount">देय राशि</string>
+    <string name="date">तारीख</string>
+    <string name="time">समय</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+
+    <string name="orders">आदेश</string>
+    <string name="recent_order">हाल के आदेश</string>
+    <string name="disconnect">डिस्कनेक्ट</string>
+    <string name="save">सहेजें</string>
+
+    <string name="purchases">बिक्री</string>
+    <string name="order_invoice">ऑर्डर रसीद</string>
+    <string name="you_are_not_connected_to_any_milkman">आप किसी दूधवाले से नहीं जुड़े हैं</string>
+    <string name="no_order_available">कोई ऑर्डर उपलब्ध नहीं है</string>
+    <string name="total_amount">कुल रकम</string>
+    <string name="raise_query">प्रश्न उठाएँ</string>
+    <string name="ok">ठीक है</string>
+    <string name="allow_storage_access">स्टोरेज तक पहुंच की अनुमति दें</string>
+    <string name="export_as">एक्सपोर्ट</string>
+    <string name="pdf">पीडीएफ</string>
+    <string name="excel">एक्सेल</string>
+    <string name="select_month_and_year">महीना और वर्ष चुनें</string>
+
+    <string name="cancel">रद्द करें</string>
+    <string name="download_pdf_viewer">उत्पन्न पीडीएफ देखने के लिए एक पीडीएफ दर्शक डाउनलोड करें</string>
+    <string name="change_language">Change Language/भाषा बदलो</string>
+
+    <string name="all_connected_milkman">सभी जुड़े दूधवाले</string>
+    <string name="milkman">दूधवाला</string>
+    <string name="amount_inr">राशि (₹ में):</string>
+
+    <string name="rate_of_fat">वसा की दर</string>
+    <string name="total_fat">कुल वसा</string>
+    <string name="quantity">मात्रा</string>
+    <string name="price">कीमत :</string>
+    <string name="cancel_order">रद्द</string>
+    <string name="delivered">पहुंचा दिया</string>
+
+    <string name="per_unit">प्रति इकाई</string>
+    <string name="milk_ordered">दूध का आदेश दिया(लीटर में)</string>
+
+    <string name="connect_milkman">दूधवाला कनेक्ट करें</string>
+    <string name="add_milkman">दूधवाला जोड़ें</string>
+    <string name="add_order">आदेश जोड़ें</string>
+    <string name="bill_invoice">बिल चालान</string>
+    <string name="search_seller">विक्रेता खोजें</string>
+
+    <string name="fat_units">फैट इकाइयों</string>
+    <string name="resend">पुन: भेजें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="profile">आपका विवरण</string>
+    <string name="error_occured">असफल रहा</string>
+
+    <string name="sure_to_disconnect">क्या आप वाकई इस विक्रेता के साथ डिस्कनेक्ट करना चाहते हैं?</string>
+    <string name="no_milkman_found">कोई मिल्कमैन नहीं मिला</string>
+    <string name="city">शहर</string>
+</resources>

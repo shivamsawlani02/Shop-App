@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dailog_date"
+        android:text="20/06/2020"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dailog_time"
+        android:text="12:00"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dailog_date"
+        android:text="Seller - Yadav Dairy"
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:id="@+id/dialog_milkman"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_milkman"
+        android:text="Quantity - 5 L"
+        android:textSize="18sp"
+        android:id="@+id/dialog_quantity"
+        android:layout_margin="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fat_units"
+        android:id="@+id/dialog_tv_fat_units"
+        android:layout_margin="10sp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_below="@+id/dialog_quantity"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_quantity"
+        android:layout_alignParentEnd="true"
+        android:text="10 @ 50 Rs. per unit"
+        android:id="@+id/dialog_fat_units"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_below="@+id/dialog_tv_fat_units"
+        android:text="@string/total_amount"
+        android:textColor="#000"
+        android:layout_margin="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="250"
+        android:layout_below="@+id/dialog_tv_fat_units"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:id="@+id/dialog_amount"
+        android:textColor="#FF0000"
+        />
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/dialog_amount"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:background="@drawable/rounded_rectangle"-->
+<!--        android:backgroundTint="#0693F1"-->
+<!--        android:textColor="#FFF"-->
+<!--        android:text="@string/raise_query"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:textSize="20sp"-->
+<!--        android:padding="10sp"-->
+<!--        android:id="@+id/dailog_raise_query"-->
+<!--        />-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative_layout"
+    android:background="@drawable/rounded_rectangle"
+    android:layout_margin="10sp"
+    android:padding="10sp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/date"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity - 5L"
+        android:layout_marginBottom="5sp"
+        android:textColor="#000"
+        android:id="@+id/quantity"
+        android:layout_below="@+id/date"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Fat Units - 12"
+        android:layout_marginBottom="5sp"
+        android:textColor="#000"
+        android:layout_below="@+id/quantity"
+        android:id="@+id/fat_units"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="150"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:id="@+id/amount"
+        android:layout_margin="10sp"
+        />
+
+
+</RelativeLayout>

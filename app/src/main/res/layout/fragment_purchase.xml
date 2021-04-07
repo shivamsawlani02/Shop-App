@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PurchaseFragment">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#F9FCFF">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:background="@drawable/background_2"
+        />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:id="@+id/scroll_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ll"
+
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+<!--                <ImageView-->
+<!--                    android:id="@+id/side_navbutton"-->
+<!--                    android:layout_width="32dp"-->
+<!--                    android:layout_height="32dp"-->
+<!--                    android:layout_marginStart="16dp"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:layout_margin="20sp"-->
+<!--                    android:src="@drawable/icon_hamburger" />-->
+
+                <com.dsdairysytem.dairyshop.CustomDrawerButton
+                    android:id="@+id/custom_drawer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/icon_hamburger"
+                    android:tint="@color/black"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="8dp"
+                    android:elevation="2dp"
+                    tools:ignore="MissingClass" />
+
+
+                <TextView
+                    android:id="@+id/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="10sp"
+                    android:text="@string/purchases"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <CalendarView
+                android:id="@+id/calender_view"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_rectangle"
+                android:layout_marginTop="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_invoice"
+                    android:id="@+id/view_invoice"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5sp"
+                    />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_share_24"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/share_invoice"
+                    app:tint="@color/colorAccent"
+                    android:layout_margin="15sp"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/no_order_available"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/not_connected"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:visibility="gone"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="true"
+                android:layout_margin="10sp" />
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5sp"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

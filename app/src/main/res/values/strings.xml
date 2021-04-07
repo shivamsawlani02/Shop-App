@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">DS Dairy Shop</string>
+
+    <string name="few_more_steps">Few more steps</string>
+    <string name="verification">VERIFICATION</string>
+    <string name="entered_mobile_number">Entered mobile number</string>
+    <string name="enter_otp">ENTER OTP</string>
+    <string name="resend_the_code_again_in">Resend the code again in</string>
+    <string name="wrong_otp">WRONG OTP</string>
+    <string name="enter_mobile_number">ENTER MOBILE NUMBER</string>
+    <string name="welcome">WELCOME/स्वागत</string>
+    <string name="register">REGISTER</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email_optional">Enter E-mail</string>
+    <string name="proceed">continue</string>
+    <string name="enter_shop_name">Enter Shop Name</string>
+    <string name="enter_shop_number">Enter Shop Number</string>
+    <string name="enter_area_road">Enter Area/Road</string>
+    <string name="enter_city">Enter city</string>
+    <string name="almost_there">Almost there</string>
+    <string name="choose_language">Choose Language/भाषा चुनें</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="connect_with">Or connect using mobile number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Home</string>
+    <string name="route">Sellers</string>
+    <string name="sales">Purchase</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="download_pdf_viewer">Download PDF viewer</string>
+
+    <string name="invaild_mobile_no">Invalid Phone Number!</string>
+    <string name="seller_already_connected">Seller already connected</string>
+    <string name="please_fill_all_the_details">Please Enter All the Fields!</string>
+    <string name="please_select_seller">Please Select Seller</string>
+    <string name="milk_left">Milk Left (in L)</string>
+    <string name="Dairy_System">Dairy System</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="purchases">Purchases</string>
+    <string name="order_invoice">Order Invoice</string>
+    <string name="you_are_not_connected_to_any_milkman">You are not connected to any milkman</string>
+    <string name="no_order_available">No order available</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="raise_query">Raise Query</string>
+    <string name="ok">OK</string>
+    <string name="allow_storage_access">Allow Storage Access</string>
+    <string name="export_as">Export As</string>
+    <string name="pdf">PDF</string>
+    <string name="excel">Excel</string>
+    <string name="select_month_and_year">Select Month And Year</string>
+
+
+    <string name="order_delivered">Order Delivered</string>
+    <string name="updating_please_wait">Updating... Please wait</string>
+    <string name="no_added_milkman">No Added Milkman</string>
+    <string name="milman_details">Milkman Details</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="due_amount">Due Amount</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="phone_number">PHONE NUMBER</string>
+
+    <string name="orders">Orders</string>
+    <string name="recent_order">Recent Orders</string>
+
+    <string name="change_language">Change Language/भाषा बदलो</string>
+
+    <string name="all_connected_milkman">All Connected Milkmans</string>
+    <string name="milkman">Milkman</string>
+    <string name="amount_inr">Amount(in ₹) :</string>
+    <string name="rate_of_fat">Rate of Fat</string>
+    <string name="total_fat">Total Fat</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price :</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="delivered">Delivered</string>
+    <string name="per_unit">per unit</string>
+    <string name="milk_ordered">Milk Ordered(in L)</string>
+    <string name="connect_milkman">Connect Milkman</string>
+    <string name="add_milkman">Add Milkman</string>
+    <string name="add_order">Add Order</string>
+    <string name="bill_invoice">Bill Invoice</string>
+    <string name="search_seller">Search Seller</string>
+    <string name="sure_to_disconnect">Are you sure you want to disconnect with this seller?</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="fat_units">Fat Units</string>
+    <string name="resend">RESEND</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="error_occured">Error Occured </string>
+    <string name="no_milkman_found">No Milkman Found</string>
+    <string name="city">City</string>
+    <string name="sure_to_logout">Are you sure to Logout</string>
+</resources>

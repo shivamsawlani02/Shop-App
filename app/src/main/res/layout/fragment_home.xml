@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FCFF"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F9FCFF"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/main_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F9FCFF"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/btStart">
+
+                    <LinearLayout
+                        android:id="@+id/top_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/curve_bottom"
+                        android:orientation="vertical">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="4dp">
+
+                            <View
+                                android:id="@+id/view14"
+                                android:layout_width="20dp"
+                                android:layout_height="1dp"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="16dp"
+                                android:background="#C4CDE0"
+                                android:rotation="165"
+                                app:layout_constraintStart_toEndOf="@+id/textView28"
+                                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                            <View
+                                android:id="@+id/view13"
+                                android:layout_width="20dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="24dp"
+                                android:background="#C4CDE0"
+                                android:rotation="15"
+                                app:layout_constraintEnd_toStartOf="@+id/textView28"
+                                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                            <View
+                                android:id="@+id/view12"
+                                android:layout_width="20dp"
+                                android:layout_height="1dp"
+                                android:layout_marginEnd="4dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#C4CDE0"
+                                android:rotation="30"
+                                app:layout_constraintBottom_toTopOf="@+id/textView28"
+                                app:layout_constraintEnd_toStartOf="@+id/textView28" />
+
+                            <View
+                                android:id="@+id/view11"
+                                android:layout_width="20dp"
+                                android:layout_height="1dp"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#C4CDE0"
+                                android:rotation="150"
+                                app:layout_constraintBottom_toTopOf="@+id/textView28"
+                                app:layout_constraintStart_toEndOf="@+id/textView28" />
+
+                            <View
+                                android:id="@+id/view8"
+                                android:layout_width="1dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="12dp"
+                                android:background="#C4CDE0"
+                                app:layout_constraintEnd_toEndOf="@+id/textView28"
+                                app:layout_constraintStart_toStartOf="@+id/textView28"
+                                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:elevation="2dp"
+                                android:fontFamily="@font/poppins"
+                                android:text="@string/Dairy_System"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <com.dsdairysytem.dairyshop.CustomDrawerButton
+                                android:id="@+id/custom_drawer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/icon_hamburger"
+                                android:tint="@color/white"
+                                app:layout_constraintBottom_toBottomOf="@+id/textView8"
+                                app:layout_constraintStart_toStartOf="parent"
+                                tools:ignore="MissingClass" />
+
+<!--                            <ImageButton-->
+<!--                                android:id="@+id/btHomeNotify"-->
+<!--                                android:layout_width="32dp"-->
+<!--                                android:layout_height="28dp"-->
+<!--                                android:layout_marginEnd="16dp"-->
+<!--                                android:background="@android:color/transparent"-->
+<!--                                app:layout_constraintBottom_toBottomOf="@+id/textView8"-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:srcCompat="@drawable/ic_notification" />-->
+
+                            <pl.pawelkleczkowski.customgauge.CustomGauge
+                                android:id="@+id/gauge"
+                                android:layout_width="583dp"
+                                android:layout_height="230dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="4dp"
+                                android:elevation="8dp"
+                                app:gaugePointStartColor="#ffffff"
+                                app:gaugeStartAngle="180"
+                                app:gaugeStartValue="0"
+                                app:gaugeStrokeCap="ROUND"
+                                app:gaugeStrokeColor="#C4CDE0"
+                                app:gaugeStrokeWidth="2dp"
+                                app:gaugeSweepAngle="180"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView8"></pl.pawelkleczkowski.customgauge.CustomGauge>
+
+                            <TextView
+                                android:id="@+id/textView28"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="56dp"
+                                android:fontFamily="@font/poppins"
+                                android:text="@string/milk_ordered"
+                                android:textAllCaps="false"
+                                android:textColor="#C4CDE0"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                            <TextView
+                                android:id="@+id/tvMilkLeft"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/poppins"
+                                android:text="00"
+                                android:textColor="#ffffffff"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toEndOf="@+id/textView28"
+                                app:layout_constraintStart_toStartOf="@+id/textView28"
+                                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/milk_type_left_list"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginEnd="8dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvMilkLeft" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <View
+                            android:id="@+id/view9"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+<!--                        <Button-->
+<!--                            android:id="@+id/btConnectClient"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="16dp"-->
+<!--                            android:layout_marginTop="32dp"-->
+<!--                            android:layout_marginRight="16dp"-->
+<!--                            android:layout_marginBottom="16dp"-->
+<!--                            android:background="@drawable/curve_rec_background"-->
+<!--                            android:fontFamily="@font/poppins"-->
+<!--                            android:text="@string/connect_milkman"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="16sp" />-->
+
+                        <Button
+                            android:id="@+id/btAddClient"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:background="@drawable/curve_rec_background"
+                            android:backgroundTint="@color/white"
+                            android:fontFamily="@font/poppins"
+                            android:text="@string/add_milkman"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/btOrder"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:background="@drawable/curve_rec_background"
+                            android:backgroundTintMode="src_in"
+                            android:fontFamily="@font/poppins"
+                            android:text="@string/add_order"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"></View>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.dsdairysytem.dairyshop"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 2
+        versionName "1.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'com.google.firebase:firebase-firestore:17.1.2'
+    implementation "com.google.firebase:firebase-auth:17.0.0"
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.github.aabhasr1:OtpView:v1.1.2'
+
+    //QR code scanner library
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    //recyclerview dependency
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    //Pdf generator
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'com.itextpdf:itext7-core:7.1.8'
+    implementation 'com.itextpdf:io:7.1.8'
+    implementation 'com.itextpdf:kernel:7.1.8'
+    implementation 'com.itextpdf:layout:7.1.8'
+    //easy permissions
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    implementation 'com.firebaseui:firebase-ui-firestore:6.3.0'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'pl.pawelkleczkowski.customgauge:CustomGauge:1.0.4'
+
+}
